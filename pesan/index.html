@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesan Makanan</title>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet"> 
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- link style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar"> 
+        <div class="container">
+            <div class="logo">
+                <h2>Pesan Makanan</h2>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+            <div class="food-items">
+                <div class="item">
+                    <h3>Hot Dog</h3>
+                    <img src="img/hotdog.png" class="hotdog" alt="">
+                    <p>Rp 10.000</p>
+                    <div class="pesan">
+                        <input type="text" class="jumlah"><button class="btn"><i class="fas fa-plus-square"></i>tambah</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <h3>Burger</h3>
+                    <img src="img/burger.png" class="burger" alt="">
+                    <p>Rp 12.000</p>
+                    <div class="pesan">
+                        <input type="text" class="jumlah"><button class="btn"><i class="fas fa-plus-square"></i>tambah</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <h3>Sushi</h3>
+                    <img src="img/sushi.png" class="sushi" alt="">
+                    <p>Rp 20.000</p>
+                    <div class="pesan">
+                        <input type="text" class="jumlah"><button class="btn"><i class="fas fa-plus-square"></i>tambah</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <h3>Pizza</h3>
+                    <img src="img/pizza.png" class="pizza" alt="">
+                    <p>Rp 15.000</p>
+                    <div class="pesan">
+                        <input type="text" class="jumlah"><button class="btn"><i class="fas fa-plus-square"></i>tambah</button>
+                    </div>
+                </div>
+            </div>
+            <div class="bayar">
+                <div class="bg-bayar">
+                    <button class="buynow"><i class="fas fa-cart-plus"></i>Beli Sekarang</button>
+                </div>
+            </div>
+            <div class="hasil">
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Sweet Alert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
